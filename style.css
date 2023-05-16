@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    list-style: none;
+}
+body {
+    min-height: 100vh;
+}
+header {
+    background: url('./images/computer-and-technology-header.jpg') fixed center/cover;
+}
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    max-width: 1400px; 
+    margin: 0 auto;
+    color: white;
+}
+.image {
+    width: 19%;
+    margin: 10px auto;
+}
+.image img {
+    height: 150px;
+    border-radius: 1500px;
+}
+.cvTitre {
+    flex: auto;
+}
+.contact {
+    width: 33%;
+    max-width: 20%;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 50px auto;
+}
+.contact .infos {
+    margin-bottom: 20px;
+}
+.contact h4, .contact .mobile {
+    margin-bottom: 10px;
+
+}
+.contact h4 {
+    font-size: 1.2rem;
+}
+.contact .mobile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fa-mobile-screen-button {
+    font-size: 25px;
+}
+a { 
+    text-decoration: none;
+    color: white;
+}
+.fa-linkedin-in{
+    background-color: blue;
+    padding: 5px;
+}
+.fa-github {
+    padding: 5px 0;
+    font-size: 25px;
+}
+
+
