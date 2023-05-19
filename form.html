@@ -1,1 +1,107 @@
-bonjour
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire_de_contact
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <header class="header__container">
+      <div>
+        <img
+          src="./images/The-Importance-of-Patches-and-Updates.jpg"
+          alt="image_header"
+          class="image__header"
+        />
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="./images/ma_photo.png" alt="photo_falonneMuyombo" />
+        </div>
+        <div class="cvTitre">
+          <h1>Falonne MUYOMBO</h1>
+          <h2>Développeur D'application - En alternance</h2>
+        </div>
+        <div class="contact__info">
+          <h4>contact</h4>
+          <div class="mes__info">
+            <div class="infos">
+              24 Avenue Auguste Renoir
+              <br />
+              74960 Annecy
+              <br />
+              Falonne.muyombo@hotmail.fr
+              <br />
+              Permis B - Véhiculé
+            </div>
+            <div class="mobile">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <p>06.78.90.60.44</p>
+            </div>
+            <div class="linkdin">
+              <a
+                href="https://www.linkedin.com/in/falonne-muyombo-tshibola/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+                Falonne Muyombo Tsibola
+              </a>
+            </div>
+            <div class="git">
+              <a href="https://github.com/mfalonne" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                mfalonne
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="formulaire__contenair">
+        <h2 class="formulaire__info">Formulaire de contact</h2>
+        <form class="formulaire">
+            <div class="form__grid">
+                <div class="nom">
+                    <label for="nom">Nom </label>
+                    <input type="text" name="nom" id="nom" placeholder="Nom / Prenom" required>
+                </div>
+                <div class="mail">
+                    <label for="mail">Email </label>
+                    <input type="email" name="mail" id="mail" placeholder="nom@exemple.com" required>
+                </div>
+                <!-- <div class="object">
+                    <label for="object">Object: </label>
+                    <select name="object" id="object">
+                        <option>Choisissez un object</option>
+                        <option>Offre d'emploie CDD/CDI</option>
+                        <option>Offre d'emploie en apprentissage</option>
+                        <option>Autres</option>
+                    </select>
+                </div> -->
+                <div class="messages">
+                    <label for="message">Message </label> 
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea> 
+                </div>
+            </div>
+            <input type="submit" class="button" value="Envoyer">
+        </form>
+    </div>
+    <footer class="footer__container">
+        <div class="accueil">
+            <button class="button"><a href="index.html">Accueil</a></button>
+        </div>
+    </footer>
+  </body>
+</html>
+

@@ -1,0 +1,48 @@
+.formulaire__contenair {
+    color: rgb(52,109,153);
+}
+.formulaire__info {
+    text-align: center;
+    margin-top: 50px;
+}
+.formulaire{
+   text-align: center; 
+   padding: 20px 0;
+}
+.form__grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 224px;
+    grid-template-areas: 
+    "input1 input2"
+    "textarea textarea";
+    gap: 10px;
+    width: 50%;
+    margin: 30px auto;
+    max-width: 600px;
+}
+
+.messages{
+    grid-area: textarea;
+}
+label {
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+input[type="text"],input[type="email"], textarea {
+    width: 100%;
+    margin: 20px 0 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: 0.2s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus, 
+textarea:focus {
+    border: 2px solid skyblue;
+}
+input[type="submit"], input::placeholder {
+    color: rgb(52,109,153);
+}
